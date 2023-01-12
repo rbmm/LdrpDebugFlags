@@ -1,0 +1,3622 @@
+2058:2150 # CreateProcess<0000000000002058> 00007FF74B820000 0000000000000000
+	File: \Device\HarddiskVolume9\Windows\System32\cmd.exe
+2058:2150 # LoadDll:00007FFE98C30000
+	File: \Device\HarddiskVolume9\Windows\System32\ntdll.dll
+	Win32File: ntdll.dll
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpInitializeProcess - INFO: Beginning execution of cmd.exe (c:\windows\system32\cmd.exe)
+	Current directory: C:\Users\Harry\Documents\GitHub\LdrpDebugFlags\
+	Package directories: (null)
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrLoadDll - ENTER: DLL name: KERNEL32.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpLoadDllInternal - ENTER: DLL name: KERNEL32.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpFindKnownDll - ENTER: DLL name: KERNEL32.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpFindKnownDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\System32\KERNEL32.DLL
+
+2058:2150 # LoadDll:00007FFE98150000
+	File: \Device\HarddiskVolume9\Windows\System32\kernel32.dll
+	Win32File: C:\WINDOWS\System32\KERNEL32.DLL
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-rtlsupport-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-rtlsupport-l1-2-2.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpFindKnownDll - ENTER: DLL name: KERNELBASE.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpFindKnownDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\System32\KERNELBASE.dll
+
+2058:2150 # LoadDll:00007FFE96050000
+	File: \Device\HarddiskVolume9\Windows\System32\KernelBase.dll
+	Win32File: C:\WINDOWS\System32\KERNELBASE.dll
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-eventing-provider-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-apiquery-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-3.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-memory-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-memory-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-memory-l1-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-2-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-2-4.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-2-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-io-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-io-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-job-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-legacy-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-private-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-largeinteger-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-3.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-namedpipe-l1-2-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-namedpipe-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-namedpipe-l1-2-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-datetime-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-datetime-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-datetime-l1-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-2-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-2-3.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-timezone-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processsnapshot-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processenvironment-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processenvironment-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-3.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-fibers-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-util-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-profile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-appcontainer-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-comm-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-realtime-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-wow64-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-wow64-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-wow64-l1-1-3.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-systemtopology-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-systemtopology-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processtopology-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-namespace-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l2-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l2-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l2-1-3.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-xstate-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-xstate-l2-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-xstate-l2-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-normalization-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-obsolete-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-fibers-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-fibers-l2-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-private-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sidebyside-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-appcompat-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-windowserrorreporting-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-windowserrorreporting-l1-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-windowserrorreporting-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-windowserrorreporting-l1-1-3.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l1-2-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l2-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l3-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-psapi-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-psapi-ansi-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-eventing-provider-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-apiquery-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-appcompat-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReAllocateHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlFreeHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAllocateHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteBarrier" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetLastWin32Error" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceFrequency" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceCounter" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryUnbiasedInterruptTime" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventRegister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventWriteTransfer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventUnregister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventSetInformation" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventUnregister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventRegister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventWriteTransfer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventActivityIdControl" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventSetInformation" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954296 - LdrpInitializeNode - INFO: Calling init routine 00007FFE96091FB0 for DLL "C:\WINDOWS\System32\KERNELBASE.dll"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrGetDllHandleEx - ENTER: DLL name: ntdll.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDisownModuleHeapAllocation" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlRegisterFeatureConfigurationChangeNotification" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryFeatureConfiguration" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpInitializeNode - INFO: Calling init routine 00007FFE98162720 for DLL "C:\WINDOWS\System32\KERNEL32.DLL"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrGetDllHandleEx - ENTER: DLL name: ntdll.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryFeatureConfiguration" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseThreadInitThunk" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvGetWindowsDirectoryW" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-kernel32-appcompat-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseFlushAppcompatCacheWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseCheckAppcompatCacheWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseIsAppcompatInfrastructureDisabledWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseReadAppCompatDataForProcessWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseFreeAppCompatDataForProcessWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseCleanupAppcompatCacheSupportWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseUpdateAppcompatCacheWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseInitAppcompatCacheSupportWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseDumpAppcompatCacheWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseCheckAppcompatCacheExWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-kernel32-file-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepSetFileEncryptionCompression" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "SetVolumeMountPointWStub" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepGetComputerNameFromNtPath" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepCopyEncryption" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-kernel32-datetime-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "GetTimeFormatAWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "GetDateFormatAWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "GetDateFormatWWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "GetTimeFormatWWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-kernel32-quirks-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QuirkIsEnabled2Worker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QuirkIsEnabled3Worker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QuirkIsEnabledWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QuirkIsEnabledForPackageWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QuirkIsEnabledForProcessWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QuirkGetDataWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QuirkGetData2Worker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QuirkIsEnabledForPackage2Worker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-kernel32-quirks-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QuirkIsEnabledForPackage4Worker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QuirkIsEnabledForPackage3Worker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-kernel32-sidebyside-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "FindActCtxSectionGuidWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "DeactivateActCtxWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "ZombifyActCtxWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "ReleaseActCtxWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QueryActCtxSettingsWWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "CreateActCtxWWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "GetCurrentActCtxWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "ActivateActCtxWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "FindActCtxSectionStringWWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "AddRefActCtxWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "QueryActCtxWWorker" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-kernel32-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepReportFault" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "CheckForReadOnlyResourceFilter" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-kernel32-registry-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvCreateRegEntry" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvOpenRegEntry" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvDeleteKey" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvGetWindowsDirectoryW" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvSetKeySecurity" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvOpenUserClasses" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepNotifyLoadStringResource" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvDeleteValue" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvRestoreKey" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvSetValueKey" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvGetWindowsDirectoryA" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TermsrvGetPreSetValue" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-kernelbase-processthread-l1-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepGetPackagedAppInfoForFile" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepGetPackageActivationTokenForFilePath" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepReleasePackagedAppInfo" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-kernelbase-processthread-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseDestroyVDMEnvironment" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepPostSuccessAppXExtension" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RaiseInvalid16BitExeError" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseElevationPostProcessing" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepInitAppCompatData" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepReleaseAppXContext" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepGetAppCompatData" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepFreeAppCompatData" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepReleaseSxsCreateProcessUtilityStruct" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepAppXExtension" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepAppContainerEnvironmentExtension" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepQueryModuleChpeSettings" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseWriteErrorElevationRequiredEvent" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseIsDosApplication" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepCheckWinSaferRestrictions" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "NtVdm64CreateProcessInternalW" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseCheckElevation" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepProcessInvalidImage" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepCheckWebBladeHashes" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepIsProcessAllowed" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BaseUpdateVDMEntry" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepQueryAppCompat" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepConstructSxsCreateProcessMessage" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-kernelbase-processthread-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepGetPackageActivationTokenForSxS" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "BasepFinishPackageActivationForSxS" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "KernelbasePostInit" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpFindKnownDll - ENTER: DLL name: ucrtbase.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpFindKnownDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\System32\ucrtbase.dll
+
+2058:2150 # LoadDll:00007FFE966A0000
+	File: \Device\HarddiskVolume9\Windows\System32\ucrtbase.dll
+	Win32File: C:\WINDOWS\System32\ucrtbase.dll
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpFindDllActivationContext - INFO: Probing for the manifest of DLL "C:\WINDOWS\System32\ucrtbase.dll" failed with status 0xc000008a
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processenvironment-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-fibers-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-datetime-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-rtlsupport-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-namedpipe-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-timezone-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-profile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-memory-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-util-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-interlocked-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # CreateThread<0000000000002350> 00007FFE98C65760
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-time-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetLastWin32Error" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-runtime-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReAllocateHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSizeHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-private-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAllocateHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlFreeHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlExitUserThread" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceCounter" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceFrequency" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEncodePointer" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInterlockedPushEntrySList" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInterlockedFlushSList" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-memory-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processenvironment-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-timezone-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-datetime-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-systemtopology-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l2-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processenvironment-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l2-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-io-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l3-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processtopology-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-profile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-interlocked-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-misc-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-apiquery-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockShared" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlTryAcquireSRWLockExclusive" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockExclusive" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockExclusive" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockShared" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSizeHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReAllocateHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAllocateHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlFreeHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetLastWin32Error" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "TpSetTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "DeleteProcThreadAttributeList" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "UpdateProcThreadAttribute" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "InitializeProcThreadAttributeList" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceCounter" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeSListHead" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpInitializeNode - INFO: Calling init routine 00007FFE966B7700 for DLL "C:\WINDOWS\System32\ucrtbase.dll"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrLoadDll - ENTER: DLL name: api-ms-win-core-synch-l1-2-0
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernelbase.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "InitializeCriticalSectionEx" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrLoadDll - ENTER: DLL name: api-ms-win-core-fibers-l1-1-1
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-fibers-l1-1-1 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernelbase.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "FlsAlloc" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpGetProcedureAddress - INFO: Locating procedure "FlsSetValue" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrLoadDll - ENTER: DLL name: api-ms-win-core-synch-l1-2-0
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernelbase.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954390 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "InitializeCriticalSectionEx" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - ENTER: DLL name: api-ms-win-core-localization-l1-2-1
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-1 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernelbase.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "LCMapStringEx" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - ENTER: DLL name: kernel32
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - ENTER: DLL name: kernel32.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "AreFileApisANSI" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - ENTER: DLL name: KERNEL32.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "SetThreadUILanguage" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - ENTER: DLL name: api-ms-win-core-string-l1-1-0
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernelbase.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "CompareStringEx" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EnumSystemLocalesEx" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - ENTER: DLL name: api-ms-win-core-datetime-l1-1-1
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-datetime-l1-1-1 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernelbase.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "GetDateFormatEx" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "GetLocaleInfoEx" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "GetTimeFormatEx" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "GetUserDefaultLocaleName" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "IsValidLocaleName" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - ENTER: DLL name: api-ms-win-core-localization-obsolete-l1-2-0
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-obsolete-l1-2-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernelbase.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "LCIDToLocaleName" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "LocaleNameToLCID" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL ext-ms-win-branding-winbrand-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\winbrand.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\winbrand.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - ENTER: DLL name: winbrand.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - RETURN: Status: 0xc0000135
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpResolveDllName - ENTER: DLL name: C:\WINDOWS\SYSTEM32\winbrand.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpResolveDllName - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\SYSTEM32\winbrand.dll
+
+2058:2150 # LoadDll:00007FFE7D350000
+	File: \Device\HarddiskVolume9\Windows\System32\winbrand.dll
+	Win32File: C:\WINDOWS\SYSTEM32\winbrand.dll
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindDllActivationContext - INFO: Probing for the manifest of DLL "C:\WINDOWS\SYSTEM32\winbrand.dll" failed with status 0xc000008a
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - ENTER: DLL name: msvcrt.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\System32\msvcrt.dll
+
+2058:2150 # LoadDll:00007FFE98840000
+	File: \Device\HarddiskVolume9\Windows\System32\msvcrt.dll
+	Win32File: C:\WINDOWS\System32\msvcrt.dll
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindDllActivationContext - INFO: Probing for the manifest of DLL "C:\WINDOWS\System32\msvcrt.dll" failed with status 0xc000008a
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-console-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-datetime-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-fibers-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-memory-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-namedpipe-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processenvironment-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-profile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-util-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetLastWin32Error" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAllocateHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlFreeHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReAllocateHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSizeHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlExitUserThread" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceCounter" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEncodePointer" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDecodePointer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-com-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\combase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - ENTER: DLL name: combase.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\System32\combase.dll
+
+2058:2150 # LoadDll:00007FFE98310000
+	File: \Device\HarddiskVolume9\Windows\System32\combase.dll
+	Win32File: C:\WINDOWS\System32\combase.dll
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindDllActivationContext - INFO: Probing for the manifest of DLL "C:\WINDOWS\System32\combase.dll" failed with status 0xc000008a
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-runtime-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-private-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - ENTER: DLL name: RPCRT4.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\System32\RPCRT4.dll
+
+2058:2150 # LoadDll:00007FFE98980000
+	File: \Device\HarddiskVolume9\Windows\System32\rpcrt4.dll
+	Win32File: C:\WINDOWS\System32\RPCRT4.dll
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindDllActivationContext - INFO: Probing for the manifest of DLL "C:\WINDOWS\System32\RPCRT4.dll" failed with status 0xc000008a
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-interlocked-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-io-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-memory-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-misc-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-namedpipe-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processenvironment-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-timezone-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-legacy-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-apiquery-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-profile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetLastWin32Error" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlFreeHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAllocateHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReAllocateHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInterlockedFlushSList" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInterlockedPopEntrySList" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInterlockedPushEntrySList" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-fibers-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryDepthSList" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeSListHead" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-fibers-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenThreadToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-interlocked-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenProcessToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "SetThreadToken" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockExclusive" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockExclusive" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-memory-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetCriticalSectionSpinCount" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeSRWLock" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlWakeAddressAll" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processenvironment-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceCounter" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseWork" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpPostWork" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForWork" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseTimer" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpSetTimer" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpIsTimerSet" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseIoCompletion" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpStartAsyncIoOperation" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpCancelAsyncIoOperation" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForIoCompletion" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleasePool" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-profile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-realtime-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-timezone-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-util-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-wow64-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-eventing-provider-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-obsolete-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-privateprofile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sidebyside-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-windowserrorreporting-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-quirks-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-path-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processsnapshot-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-apiquery-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-shlwapi-legacy-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-obsolete-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-largeinteger-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-profile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-rtlsupport-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetLastWin32Error" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSizeHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReAllocateHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlFreeHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAllocateHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInterlockedPopEntrySList" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processenvironment-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInterlockedPushEntrySList" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeSListHead" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-obsolete-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "SetThreadToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-apiquery-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-shcore-stream-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\shcore.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - ENTER: DLL name: shcore.dll
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenProcessToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\System32\shcore.dll
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenThreadToken" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "GetProcessMitigationPolicy" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceCounter" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceFrequency" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryUnbiasedInterruptTime" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlTryAcquireSRWLockExclusive" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockExclusive" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockExclusive" by name
+
+2058:2150 # LoadDll:00007FFE97790000
+	File: \Device\HarddiskVolume9\Windows\System32\SHCore.dll
+	Win32File: C:\WINDOWS\System32\shcore.dll
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockShared" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockShared" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeSRWLock" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlWakeAddressAll" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlWakeAddressSingle" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForWait" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpSetWait" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForTimer" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpPostWork" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseTimer" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpSetTimer" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseWork" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseWait" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForWork" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpCallbackSetEventOnCompletion" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDecodePointer" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEncodePointer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindDllActivationContext - INFO: Probing for the manifest of DLL "C:\WINDOWS\System32\shcore.dll" failed with status 0xc000008a
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventWriteEx" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventWriteTransfer" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventRegister" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventSetInformation" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventUnregister" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventActivityIdControl" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - ENTER: DLL name: msvcp_win.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\System32\msvcp_win.dll
+
+2058:2150 # LoadDll:00007FFE96910000
+	File: \Device\HarddiskVolume9\Windows\System32\msvcp_win.dll
+	Win32File: C:\WINDOWS\System32\msvcp_win.dll
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindDllActivationContext - INFO: Probing for the manifest of DLL "C:\WINDOWS\System32\msvcp_win.dll" failed with status 0xc000008a
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-locale-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-runtime-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-private-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-util-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-obsolete-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-rtlsupport-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-profile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-interlocked-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-runtime-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-crt-private-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ucrtbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockExclusive" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockExclusive" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeSRWLock" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlTryAcquireSRWLockExclusive" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEncodePointer" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDecodePointer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-eventing-provider-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlWakeAllConditionVariable" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlWakeConditionVariable" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeConditionVariable" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-util-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpCallbackUnloadDllOnCompletion" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpPostWork" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseWork" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceCounter" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceFrequency" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeSListHead" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-rtlsupport-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-profile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-interlocked-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-shlwapi-obsolete-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-memory-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-commandlinetoargv-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-shlwapi-legacy-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processenvironment-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-wow64-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l2-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-largeinteger-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-quirks-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-io-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-legacy-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-atoms-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-version-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-obsolete-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-obsolete-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-path-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-apiquery-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockExclusive" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockExclusive" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockShared" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockShared" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlTryAcquireSRWLockExclusive" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeSRWLock" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlFreeHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAllocateHeap" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetLastWin32Error" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventActivityIdControl" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventUnregister" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventRegister" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventWriteTransfer" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventSetInformation" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEncodePointer" by name
+
+2058:1c8c # CreateThread<0000000000001C8C> 00007FFE98C65760
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDecodePointer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlFreeHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAllocateHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetLastWin32Error" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenThreadToken" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenProcessToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceCounter" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceCounter" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeSListHead" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockExclusive" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockExclusive" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockShared" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpDisassociateCallback" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseWait" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpSetTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockShared" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpCallbackUnloadDllOnCompletion" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForWait" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpSetWait" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2350 # DBG_PRINT_A
+2058:2350 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpSetTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpInitializeNode - INFO: Calling init routine 00007FFE98847B90 for DLL "C:\WINDOWS\System32\msvcrt.dll"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpInitializeNode - INFO: Calling init routine 00007FFE989912C0 for DLL "C:\WINDOWS\System32\RPCRT4.dll"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpInitializeNode - INFO: Calling init routine 00007FFE98414F90 for DLL "C:\WINDOWS\System32\combase.dll"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - ENTER: DLL name: api-ms-win-core-synch-l1-2-0.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "SleepConditionVariableCS" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "WakeAllConditionVariable" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - ENTER: DLL name: NTDLL.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlWakeAllConditionVariable" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - ENTER: DLL name: ntdll.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlRegisterFeatureConfigurationChangeNotification" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDisownModuleHeapAllocation" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryFeatureConfiguration" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - ENTER: DLL name: rpcrt4.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "I_RpcInitNdrImports" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpInitializeNode - INFO: Calling init routine 00007FFE96922440 for DLL "C:\WINDOWS\System32\msvcp_win.dll"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpInitializeNode - INFO: Calling init routine 00007FFE977D7930 for DLL "C:\WINDOWS\System32\shcore.dll"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - ENTER: DLL name: api-ms-win-core-synch-l1-2-0.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "SleepConditionVariableCS" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "WakeAllConditionVariable" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - ENTER: DLL name: NTDLL.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlWakeAllConditionVariable" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpInitializeNode - INFO: Calling init routine 00007FFE7D355450 for DLL "C:\WINDOWS\SYSTEM32\winbrand.dll"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - ENTER: DLL name: ntdll.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventRegister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventUnregister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventEnabled" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventWrite" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "BrandingFormatString" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - ENTER: DLL name: ntdll.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "NtQuerySystemInformation" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - ENTER: DLL name: kernelbase.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "ArmFeatureUsageSubscriberFlushNotification" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - ENTER: DLL name: wldp.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - ENTER: DLL name: wldp.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - ENTER: DLL name: wldp.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindKnownDll - RETURN: Status: 0xc0000135
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpSearchPath - ENTER: DLL name: wldp.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpComputeLazyDllPath - INFO: DLL search path computed: C:\WINDOWS\SYSTEM32
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpResolveDllName - ENTER: DLL name: C:\WINDOWS\SYSTEM32\wldp.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpResolveDllName - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpSearchPath - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\SYSTEM32\wldp.dll
+
+2058:2150 # LoadDll:00007FFE95810000
+	File: \Device\HarddiskVolume9\Windows\System32\wldp.dll
+	Win32File: C:\WINDOWS\SYSTEM32\wldp.dll
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindDllActivationContext - INFO: Probing for the manifest of DLL "C:\WINDOWS\SYSTEM32\wldp.dll" failed with status 0xc000008a
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-eventing-provider-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-version-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-psapi-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processenvironment-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-io-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-2-3.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-winrt-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\combase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-winrt-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\combase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-rtlsupport-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-profile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-downlevel-advapi32-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-memory-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-apiquery-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockShared" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockExclusive" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockShared" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockExclusive" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAllocateHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlFreeHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetLastWin32Error" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventUnregister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventWrite" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventWriteTransfer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventSetInformation" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventRegister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventActivityIdControl" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpSetTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenThreadToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenProcessToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceCounter" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "GetProcessMitigationPolicy" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwTraceMessage" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpInitializeNode - INFO: Calling init routine 00007FFE95813480 for DLL "C:\WINDOWS\SYSTEM32\wldp.dll"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "WldpQueryWindowsLockdownMode" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpProcessDetachNode - INFO: Uninitializing DLL "C:\WINDOWS\SYSTEM32\wldp.dll" (Init routine: 00007FFE95813480)
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - ENTER: DLL name: ntdll.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDllShutdownInProgress" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpUnloadNode - INFO: Unmapping DLL "C:\WINDOWS\SYSTEM32\wldp.dll"
+
+2058:2150 # UnloadDll:00007FFE95810000
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - ENTER: DLL name: kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - ENTER: DLL name: kernel32.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "SortGetHandle" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "SortCloseHandle" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - ENTER: DLL name: KERNEL32.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "CopyFileExW" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "IsDebuggerPresent" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "SetConsoleInputExeNameW" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - ENTER: DLL name: kernelbase.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14954406 - LdrpGetProcedureAddress - INFO: Locating procedure "SetConsoleInputExeNameW" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-isolationpolicy-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\sechost.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpFindKnownDll - ENTER: DLL name: sechost.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpFindKnownDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\System32\sechost.dll
+
+2058:2150 # LoadDll:00007FFE98B40000
+	File: \Device\HarddiskVolume9\Windows\System32\sechost.dll
+	Win32File: C:\WINDOWS\System32\sechost.dll
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpFindDllActivationContext - INFO: Probing for the manifest of DLL "C:\WINDOWS\System32\sechost.dll" failed with status 0xc000008b
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-crt-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-crt-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-util-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-eventing-provider-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-wow64-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-threadpool-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-file-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-memory-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-io-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-rtlsupport-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-apiquery-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetLastWin32Error" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReAllocateHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlFreeHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAllocateHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenThreadToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenProcessToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "UpdateProcThreadAttribute" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "InitializeProcThreadAttributeList" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockShared" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockExclusive" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAcquireSRWLockShared" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeSRWLock" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlReleaseSRWLockExclusive" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDecodePointer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEncodePointer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventUnregister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventRegister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventSetInformation" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventWriteTransfer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlWakeConditionVariable" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "TpSetTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "TpWaitForTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseWork" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseTimer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "TpPostWork" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "GetProcessMitigationPolicy" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpInitializeNode - INFO: Calling init routine 00007FFE98B57670 for DLL "C:\WINDOWS\System32\sechost.dll"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "GetEmbeddedImageMitigationPolicy" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrLoadDll - ENTER: DLL name: ADVAPI32.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpLoadDllInternal - ENTER: DLL name: ADVAPI32.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpFindKnownDll - ENTER: DLL name: ADVAPI32.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpFindKnownDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\System32\ADVAPI32.DLL
+
+2058:2150 # LoadDll:00007FFE97890000
+	File: \Device\HarddiskVolume9\Windows\System32\advapi32.dll
+	Win32File: C:\WINDOWS\System32\ADVAPI32.DLL
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpFindDllActivationContext - INFO: Probing for the manifest of DLL "C:\WINDOWS\System32\ADVAPI32.DLL" failed with status 0xc000008a
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-eventing-controller-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-eventing-consumer-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-eventing-consumer-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-service-core-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-service-core-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-service-core-l1-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-service-management-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-service-management-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-service-private-l1-1-4.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-service-private-l1-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-service-private-l1-1-3.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-service-private-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-service-winsvc-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-namedpipe-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-private-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-2.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-timezone-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-audit-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-audit-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\sechost.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-apiquery-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-eventing-provider-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-pcw-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenProcessToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "SetThreadToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenThreadToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEnterCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlLeaveCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "LdrResolveDelayLoadedAPI" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlAllocateHeap" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDeleteCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "InitOnceBeginInitialize" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-synch-l1-2-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "InitOnceComplete" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlInitializeCriticalSection" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDecodePointer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlEncodePointer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "TpCallbackUnloadDllOnCompletion" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "TpReleaseIoCompletion" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "TpCancelAsyncIoOperation" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "TpStartAsyncIoOperation" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventWriteTransfer" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventSetInformation" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventUnregister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "EtwEventRegister" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpInitializeNode - INFO: Calling init routine 00007FFE978946F0 for DLL "C:\WINDOWS\System32\ADVAPI32.DLL"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "SaferIdentifyLevel" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "SaferCloseLevel" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "SaferComputeTokenFromLevel" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "SaferRecordEventLogEntry" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrLoadDll - ENTER: DLL name: ntdll.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpLoadDllInternal - ENTER: DLL name: ntdll.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlGetNtSystemRoot" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrLoadDll - ENTER: DLL name: KernelBase
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpLoadDllInternal - ENTER: DLL name: KernelBase.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "GetTempPath2W" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrLoadDll - ENTER: DLL name: NTDLL.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpLoadDllInternal - ENTER: DLL name: NTDLL.DLL
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 14958156 - LdrpGetProcedureAddress - INFO: Locating procedure "NtQueryInformationProcess" by name
+
+2058:2350 # ExitThread<0000000000002350> 0
+2058:1c8c # ExitThread<0000000000001C8C> 0
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrGetDllHandleEx - ENTER: DLL name: ntdll.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDllShutdownInProgress" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrLoadDll - ENTER: DLL name: api-ms-win-appmodel-runtime-l1-1-2
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-appmodel-runtime-l1-1-2 was redirected to C:\WINDOWS\SYSTEM32\kernel.appcore.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpLoadDllInternal - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpFindKnownDll - ENTER: DLL name: kernel.appcore.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpFindKnownDll - RETURN: Status: 0xc0000135
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpResolveDllName - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpResolveDllName - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpMinimalMapModule - ENTER: DLL name: C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+
+2058:2150 # LoadDll:00007FFE950B0000
+	File: \Device\HarddiskVolume9\Windows\System32\kernel.appcore.dll
+	Win32File: C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpMinimalMapModule - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpFindDllActivationContext - INFO: Probing for the manifest of DLL "C:\WINDOWS\SYSTEM32\kernel.appcore.dll" failed with status 0xc000008a
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-libraryloader-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-profile-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernel32.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-sysinfo-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-rtlsupport-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-errorhandling-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-psm-key-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-psm-key-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-security-base-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-apiquery-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\ntdll.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-heap-l2-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-registry-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-string-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-localization-l1-2-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-debug-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-handle-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-1.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-delayload-l1-1-0.dll was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlQueryPerformanceCounter" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpGetProcedureAddress - INFO: Locating procedure "InitializeProcThreadAttributeList" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpGetProcedureAddress - INFO: Locating procedure "OpenProcessToken" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpPreprocessDllName - INFO: DLL api-ms-win-core-processthreads-l1-1-0 was redirected to C:\WINDOWS\SYSTEM32\kernelbase.dll by API set
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpGetProcedureAddress - INFO: Locating procedure "UpdateProcThreadAttribute" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlSetLastWin32Error" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpInitializeNode - INFO: Calling init routine 00007FFE950B5880 for DLL "C:\WINDOWS\SYSTEM32\kernel.appcore.dll"
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpLoadDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrLoadDll - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpGetProcedureAddress - INFO: Locating procedure "AppPolicyGetProcessTerminationMethod" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrGetDllHandleEx - ENTER: DLL name: mscoree.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpFindLoadedDllInternal - RETURN: Status: 0xc0000135
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrGetDllHandleEx - RETURN: Status: 0xc0000135
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrShutdownProcess - INFO: Process 0x0000000000002058 ("c:\windows\system32\cmd.exe") exiting
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrGetDllHandleEx - ENTER: DLL name: ntdll.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDllShutdownInProgress" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrGetDllHandleEx - ENTER: DLL name: ntdll.dll
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpFindLoadedDllInternal - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrGetDllHandleEx - RETURN: Status: 0x00000000
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDllShutdownInProgress" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpGetProcedureAddress - INFO: Locating procedure "RtlDllShutdownInProgress" by name
+
+2058:2150 # DBG_PRINT_A
+2058:2150 @ 15073500 - LdrpGetProcedureAddress - INFO: Locating procedure "NtQueryWnfStateData" by name
+
+2058:2150 # ExitProcess 1
